@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản Lý Khách Sạn</title>
+    <link rel="stylesheet" href="datphong.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h1>Quản Lý Khách Sạn</h1>
+      <div class="menu">
+        <!-- Đang ở trang đặt phòng -->
+        <a href="datphong.html">
+          <button class="active">Quản lý đặt phòng</button>
+        </a>
+
+        <!-- Đúng đường dẫn đến index.html trong thư mục Quanliluutru -->
+        <a href="../Quanliluutru/index.html">
+          <button>Quản lý khách lưu trú</button>
+        </a>
+
+        <!-- Đúng đường dẫn đến hoadon.html trong thư mục Quanlihoadon -->
+        <a href="../Quanlihoadon/hoadon.html">
+          <button>Quản lý dịch vụ & thanh toán</button>
+        </a>
+
+        <!-- Đúng đường dẫn đến nhansu.html trong thư mục quanlinhansu -->
+        <a href="../quanlinhansu/nhansu.html">
+          <button>Quản lý nhân sự & phân quyền</button>
+        </a>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <h2>Quản lý đặt phòng</h2>
+      <div class="card">
+        <div class="card-header">
+          <h3>Danh sách phòng</h3>
+          <button class="btn-add">+ Thêm mới</button>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>STT</th>
+              <th>Tên phòng</th>
+              <th>Loại phòng</th>
+              <th>Tình trạng</th>
+              <th>Tùy chỉnh</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>101</td>
+              <td>VIP</td>
+              <td>Đang trống</td>
+              <td><button class="btn-action">Tùy chỉnh</button></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>102</td>
+              <td>Thường</td>
+              <td>Đang sử dụng</td>
+              <td><button class="btn-action">Tùy chỉnh</button></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>201</td>
+              <td>VIP</td>
+              <td>Đang trống</td>
+              <td><button class="btn-action">Tùy chỉnh</button></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>202</td>
+              <td>Thường</td>
+              <td>Đang sử dụng</td>
+              <td><button class="btn-action">Tùy chỉnh</button></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>301</td>
+              <td>VIP</td>
+              <td>Đang trống</td>
+              <td><button class="btn-action">Tùy chỉnh</button></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>302</td>
+              <td>Thường</td>
+              <td>Đang sử dụng</td>
+              <td><button class="btn-action">Tùy chỉnh</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý hóa đơn</title>
+    <link rel="stylesheet" href="hoadon.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h2>Quản Lý Khách Sạn</h2>
+        <nav>
+          <!-- Đặt phòng -->
+          <a href="../Quanlidatphong/datphong.html">📅 Quản lý đặt phòng</a>
+          <!-- Lưu trú -->
+          <a href="../Quanliuutru/index.html">👤 Quản lý khách lưu trú</a>
+          <!-- Trang hiện tại -->
+          <a href="hoadon.html" class="active"
+            >💳 Quản lý dịch vụ & thanh toán</a
+          >
+          <!-- Nhân sự -->
+          <a href="../quanlinhansu/nhansu.html"
+            >⚙️ Quản lý nhân sự & phân quyền</a
+          >
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <h2>Quản lý hóa đơn</h2>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Mã hóa đơn</th>
+                <th>Khách hàng</th>
+                <th>Phòng</th>
+                <th>Tổng tiền</th>
+                <th>Hình thức</th>
+                <th>Trạng thái</th>
+                <th>Tùy chọn</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HD001</td>
+                <td>Nguyễn Văn A</td>
+                <td>101</td>
+                <td>2.500.000đ</td>
+                <td>Tiền mặt</td>
+                <td class="pending">Chưa thanh toán</td>
+                <td><button class="btn">Xem</button></td>
+              </tr>
+              <tr>
+                <td>HD002</td>
+                <td>Trần Văn B</td>
+                <td>201</td>
+                <td>3.000.000đ</td>
+                <td>Chuyển khoản</td>
+                <td class="success">Đã thanh toán</td>
+                <td><button class="btn">Xem</button></td>
+              </tr>
+              <tr>
+                <td>HD003</td>
+                <td>Mai Văn C</td>
+                <td>301</td>
+                <td>1.500.000đ</td>
+                <td>Tiền mặt</td>
+                <td class="success">Đã thanh toán</td>
+                <td><button class="btn">Xem</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

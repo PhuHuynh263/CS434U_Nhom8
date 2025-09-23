@@ -1,0 +1,211 @@
+{
+  "DatPhong": [
+    {
+      "ma_dat_phong": 1,
+      "ma_khach_hang": 1,
+      "ma_loai_phong": 101,
+      "ngay_nhan_phong": "2025-09-23",
+      "ngay_tra_phong": "2025-09-25",
+      "so_luong_khach": 2,
+      "trang_thai": "Đã xác nhận",
+      "ngay_tao": "2025-09-20T10:00:00"
+    },
+    {
+      "ma_dat_phong": 2,
+      "ma_khach_hang": 2,
+      "ma_loai_phong": 102,
+      "ngay_nhan_phong": "2025-09-24",
+      "ngay_tra_phong": "2025-09-26",
+      "so_luong_khach": 1,
+      "trang_thai": "Đã xác nhận",
+      "ngay_tao": "2025-09-21T11:00:00"
+    },
+    {
+      "ma_dat_phong": 3,
+      "ma_khach_hang": 3,
+      "ma_loai_phong": 103,
+      "ngay_nhan_phong": "2025-09-25",
+      "ngay_tra_phong": "2025-09-28",
+      "so_luong_khach": 3,
+      "trang_thai": "Chờ xác nhận",
+      "ngay_tao": "2025-09-22T12:00:00"
+    },
+    {
+      "ma_dat_phong": 4,
+      "ma_khach_hang": 4,
+      "ma_loai_phong": 101,
+      "ngay_nhan_phong": "2025-09-26",
+      "ngay_tra_phong": "2025-09-27",
+      "so_luong_khach": 2,
+      "trang_thai": "Đã hủy",
+      "ngay_tao": "2025-09-23T13:00:00"
+    },
+    {
+      "ma_dat_phong": 5,
+      "ma_khach_hang": 5,
+      "ma_loai_phong": 102,
+      "ngay_nhan_phong": "2025-09-27",
+      "ngay_tra_phong": "2025-09-29",
+      "so_luong_khach": 1,
+      "trang_thai": "Đã xác nhận",
+      "ngay_tao": "2025-09-24T14:00:00"
+    }
+  ],
+  "KhachHang": [
+    {
+      "ma_khach_hang": 1,
+      "ho_ten": "Nguyễn Văn A",
+      "so_dien_thoai": "0901234567",
+      "email": "vana@example.com",
+      "so_cmnd_ho_chieu": "123456789",
+      "quoc_tich": "Việt Nam",
+      "ngay_dang_ky": "2025-09-20T09:30:00"
+    },
+    {
+      "ma_khach_hang": 2,
+      "ho_ten": "Trần Thị B",
+      "so_dien_thoai": "0902345678",
+      "email": "tranb@example.com",
+      "so_cmnd_ho_chieu": "234567890",
+      "quoc_tich": "Việt Nam",
+      "ngay_dang_ky": "2025-09-21T10:00:00"
+    },
+    {
+      "ma_khach_hang": 3,
+      "ho_ten": "Lê Văn C",
+      "so_dien_thoai": "0903456789",
+      "email": "levanc@example.com",
+      "so_cmnd_ho_chieu": "345678901",
+      "quoc_tich": "Việt Nam",
+      "ngay_dang_ky": "2025-09-22T11:00:00"
+    },
+    {
+      "ma_khach_hang": 4,
+      "ho_ten": "Phạm Thị D",
+      "so_dien_thoai": "0904567890",
+      "email": "phamd@example.com",
+      "so_cmnd_ho_chieu": "456789012",
+      "quoc_tich": "Việt Nam",
+      "ngay_dang_ky": "2025-09-23T12:00:00"
+    },
+    {
+      "ma_khach_hang": 5,
+      "ho_ten": "Hoàng Văn E",
+      "so_dien_thoai": "0905678901",
+      "email": "hoange@example.com",
+      "so_cmnd_ho_chieu": "567890123",
+      "quoc_tich": "Việt Nam",
+      "ngay_dang_ky": "2025-09-24T13:00:00"
+    }
+  ],
+  "LoaiPhong": [
+    {
+      "ma_loai_phong": 101,
+      "ten_loai_phong": "Deluxe",
+      "mo_ta": "Phòng rộng, view biển",
+      "gia_moi_dem": 1200000,
+      "so_khach_toi_da": 3
+    },
+    {
+      "ma_loai_phong": 102,
+      "ten_loai_phong": "Standard",
+      "mo_ta": "Phòng tiêu chuẩn",
+      "gia_moi_dem": 800000,
+      "so_khach_toi_da": 2
+    },
+    {
+      "ma_loai_phong": 103,
+      "ten_loai_phong": "Suite",
+      "mo_ta": "Phòng cao cấp",
+      "gia_moi_dem": 2000000,
+      "so_khach_toi_da": 4
+    }
+  ],
+  "Phong": [
+    { "ma_phong": 201, "ma_loai_phong": 101, "trang_thai": 1 },
+    { "ma_phong": 202, "ma_loai_phong": 102, "trang_thai": 1 },
+    { "ma_phong": 203, "ma_loai_phong": 103, "trang_thai": 0 },
+    { "ma_phong": 204, "ma_loai_phong": 101, "trang_thai": 1 },
+    { "ma_phong": 205, "ma_loai_phong": 102, "trang_thai": 0 }
+  ],
+  "LuuTru": [
+    {
+      "ma_luu_tru": 1,
+      "ma_khach_hang": 1,
+      "ma_phong": 201,
+      "thoi_gian_nhan": "2025-09-23T14:00:00",
+      "thoi_gian_tra": null,
+      "trang_thai": 1
+    },
+    {
+      "ma_luu_tru": 2,
+      "ma_khach_hang": 2,
+      "ma_phong": 202,
+      "thoi_gian_nhan": "2025-09-24T15:00:00",
+      "thoi_gian_tra": null,
+      "trang_thai": 1
+    },
+    {
+      "ma_luu_tru": 3,
+      "ma_khach_hang": 3,
+      "ma_phong": 203,
+      "thoi_gian_nhan": "2025-09-25T16:00:00",
+      "thoi_gian_tra": null,
+      "trang_thai": 1
+    }
+  ],
+  "DichVu": [
+    {
+      "ma_dich_vu": 301,
+      "ten_dich_vu": "Giặt ủi",
+      "don_gia": 50000,
+      "mo_ta": "Giặt quần áo trong ngày"
+    },
+    {
+      "ma_dich_vu": 302,
+      "ten_dich_vu": "Spa",
+      "don_gia": 200000,
+      "mo_ta": "Thư giãn toàn thân"
+    },
+    {
+      "ma_dich_vu": 303,
+      "ten_dich_vu": "Đưa đón sân bay",
+      "don_gia": 150000,
+      "mo_ta": "Xe riêng đưa đón"
+    }
+  ],
+  "SuDungDichVu": [
+    {
+      "ma_su_dung": 1,
+      "ma_luu_tru": 1,
+      "ma_dich_vu": 301,
+      "so_luong": 2,
+      "thoi_gian_su_dung": "2025-09-24T10:00:00"
+    },
+    {
+      "ma_su_dung": 2,
+      "ma_luu_tru": 2,
+      "ma_dich_vu": 302,
+      "so_luong": 1,
+      "thoi_gian_su_dung": "2025-09-25T11:00:00"
+    }
+  ],
+  "HoaDon": [
+    {
+      "ma_hoa_don": 1,
+      "ma_luu_tru": 1,
+      "tong_tien": 1300000,
+      "hinh_thuc_thanh_toan": "Thẻ ngân hàng",
+      "thoi_gian_thanh_toan": "2025-09-25T11:00:00",
+      "trang_thai": 1
+    },
+    {
+      "ma_hoa_don": 2,
+      "ma_luu_tru": 2,
+      "tong_tien": 950000,
+      "hinh_thuc_thanh_toan": "Tiền mặt",
+      "thoi_gian_thanh_toan": "2025-09-26T12:00:00",
+      "trang_thai": 1
+    }
+  ]
+}

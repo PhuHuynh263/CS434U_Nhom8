@@ -1,0 +1,14 @@
+[
+  {
+    "MaVaiTro": 1,
+    "TenVaiTro": "Admin"
+  },
+  {
+    "MaVaiTro": 2,
+    "TenVaiTro": "Quản lý"
+  },
+  {
+    "MaVaiTro": 3,
+    "TenVaiTro": "Nhân viên lễ tân"
+  }
+]

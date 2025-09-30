@@ -1,0 +1,29 @@
+{
+  "name": "hotel-management-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Hotel Management System",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "hotel",
+    "management",
+    "api",
+    "express",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT"
+}

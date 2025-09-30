@@ -1,0 +1,50 @@
+[
+  {
+    "MaNhanVien": "NV001",
+    "TenNhanVien": "Lê Ian",
+    "MaVaiTro": 3,
+    "TrangThai": "Hoạt động",
+    "Email": "leian@hotel.com",
+    "password": "123456"
+  },
+  {
+    "MaNhanVien": "NV002",
+    "TenNhanVien": "B",
+    "MaVaiTro": 2,
+    "TrangThai": "Hoạt động",
+    "Email": "manager@hotel.com",
+    "password": "123456"
+  },
+  {
+    "MaNhanVien": "NV003",
+    "TenNhanVien": "Lê Ian",
+    "MaVaiTro": 3,
+    "TrangThai": "Hoạt động",
+    "Email": "leian@gmail.com",
+    "password": "123456"
+  },
+  {
+    "MaNhanVien": "NV002",
+    "TenNhanVien": "B",
+    "MaVaiTro": 2,
+    "TrangThai": "Nghỉ việc",
+    "Email": "nvb@hotel.com",
+    "password": "123456"
+  },
+  {
+    "MaNhanVien": "NV001",
+    "TenNhanVien": "Lê Ian",
+    "MaVaiTro": 3,
+    "TrangThai": "Nghỉ việc",
+    "Email": "leian@gmail.com",
+    "password": "123456"
+  },
+  {
+    "MaNhanVien": "NV002",
+    "TenNhanVien": "B",
+    "MaVaiTro": 2,
+    "TrangThai": "Quản lý",
+    "Email": "nvb@hotel.com",
+    "password": "123456"
+  }
+]

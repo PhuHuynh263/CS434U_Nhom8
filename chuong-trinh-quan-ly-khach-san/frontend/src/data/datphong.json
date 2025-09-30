@@ -1,0 +1,22 @@
+[
+  {
+    "MaDatPhong": "DP001",
+    "MaKhachHang": "KH01",
+    "MaLoaiPhong": 1,
+    "SoLuongKhach": 2,
+    "NgayDen": "2024-09-25T14:00:00",
+    "NgayDi": "2024-09-27T12:00:00",
+    "NgayTao": "2024-09-20T10:30:00",
+    "TrangThai": "Đã xác nhận"
+  },
+  {
+    "MaDatPhong": "DP002",
+    "MaKhachHang": "KH02",
+    "MaLoaiPhong": 2,
+    "SoLuongKhach": 1,
+    "NgayDen": "2024-09-26T15:00:00",
+    "NgayDi": "2024-09-28T11:00:00",
+    "NgayTao": "2024-09-21T09:15:00",
+    "TrangThai": "Chờ xác nhận"
+  }
+]

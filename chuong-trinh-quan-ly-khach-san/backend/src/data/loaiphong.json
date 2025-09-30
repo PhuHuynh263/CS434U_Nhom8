@@ -1,0 +1,16 @@
+[
+  {
+    "MaLoaiPhong": 1,
+    "TenLoaiPhong": "VIP",
+    "MoTa": "Phòng VIP cao cấp với đầy đủ tiện nghi",
+    "SoKhachToiDa": 2,
+    "Gia": 2500000
+  },
+  {
+    "MaLoaiPhong": 2,
+    "TenLoaiPhong": "Thường",
+    "MoTa": "Phòng tiêu chuẩn với tiện nghi cơ bản",
+    "SoKhachToiDa": 2,
+    "Gia": 1500000
+  }
+]
